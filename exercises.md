@@ -27,7 +27,7 @@ FIJI (FIJI is just ImageJ) is a very versatile and extendible open source tool f
 5.	In FIJI draw a ROI into that image. Click `Plugins>OMERO>Save ROIs to OMERO`. Click `Save` in following dialog.
 6.	Update the view in the insight client and check whether you can find your ROI.
 
-Brightness and contrast adjustment, background correction
+## Brightness and contrast adjustment, background correction
 1.	From the OMERO menu in FIJI select Connect to OMERO (`Plugins>OMERO>Connect to OMERO`). Find (e.g. via `Tags>Peter Zentis>exercise 1` and open the file *gel.tif*.
 2.	Draw a rectangular ROI around the fifth lane from the top and run `Analyze>Plot Profile`
 3.	From the resulting plot determine the maxima of the two major peaks and calculate the intensity ratio.
