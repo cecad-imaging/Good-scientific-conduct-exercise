@@ -24,7 +24,7 @@ FIJI (FIJI is just ImageJ) is a very versatile and extendible open source tool f
 2.	Choose `Plugins>OMERO>Connect to OMERO` from the menu. Open the *sted-confocal.lif [Fab Antikoerper]* image by double clicking. (Adjust the `Display Groups` settings to `All Members` for the CIF-Good Scientific Conduct group to find the data by Peter Zentis.
 3.	In FIJI select a square ROI in the image. Crop the image to this ROI (`Ctrl-Shift-X`) and select `Plugins>OMERO>Save image(s) to OMERO`. In the following dialog select *GSC exercise* as project and give a name of your choice for the dataset. Then click `Add to the Queue` and `Import`. (If it does not work try to restart FIJI and try again.)
 4.	Update the view in the OMERO insight window. Find the cropped image you just saved and open it by double clicking it.
-5.	In FIJI draw a ROI into that image. Click `Plugins>OMERO>Save ROIs to OMERO`. Click `Save` in following dialog.
+5.	In FIJI draw a ROI into that image. Add the ROI to the roi manager in FIJI (press `t` or go via the menu `Analyze>Tools>Roi Manager` and then `Add`). Click `Plugins>OMERO>Save ROIs to OMERO`. Click `Save` in following dialog.
 6.	Update the view in the insight client and check whether you can find your ROI.
 
 ## Brightness and contrast adjustment, background correction
